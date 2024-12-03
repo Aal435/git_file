@@ -75,5 +75,3 @@ for i,j in data_panen.items():
     else:
         perhatian = f"{i} tidak memerlukan perhatian khusus"
     print(f"Lokasi: {j['nama_lokasi']}\nHasil panen padi: {j['hasil_panen']['padi']}\nHasil panen jagung: {j['hasil_panen']['jagung']}\nHasil panen kedelai: {j['hasil_panen']['kedelai']}\n{perhatian}\n")
-
-    print('tambahan')
